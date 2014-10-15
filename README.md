@@ -6,7 +6,7 @@ z80e port to Windows, only including the SDL frontend. Based on https://github.c
 Building from source
 ====================
 
-For now, only Visual Studio 2012 or higher has been tested for compiling z80e-sdl-win. Just open z80e-sdl.sln and build the solution.
+For now, only Visual Studio 2012 or higher has been tested for compiling z80e-sdl-win. Download SDL 1.2.15 ([download from official site](http://www.libsdl.org/release/SDL-devel-1.2.15-VC.zip)), put it in the z80e-sdl directory, then just open z80e-sdl.sln and build the solution.
 
 Using z80e-sdl-win
 ==================
