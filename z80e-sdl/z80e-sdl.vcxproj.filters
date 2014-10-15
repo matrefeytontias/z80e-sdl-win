@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\core">
+      <UniqueIdentifier>{1323c7ee-7c60-42c6-9302-25ddc651175f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\debugger">
+      <UniqueIdentifier>{f73c66b3-33d8-4ed6-b546-8200fec76153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\debugger\commands">
+      <UniqueIdentifier>{0400ff5a-cef8-4a47-b9cd-31743d95cc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\disassembler">
+      <UniqueIdentifier>{ca9fc87f-065d-412b-88c8-bfd9b713323d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\log">
+      <UniqueIdentifier>{298788fd-b8f1-4026-bc00-c849a8adc661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\runloop">
+      <UniqueIdentifier>{69cf27ac-aea2-4e20-be58-911bdc348afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ti">
+      <UniqueIdentifier>{4209b3be-70b3-4dec-af73-79ff4ad905b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ti\hardware">
+      <UniqueIdentifier>{13cb3774-5e98-44f9-a76e-aa16df743325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e">
+      <UniqueIdentifier>{e616f56d-832f-4622-a390-32e1b5d55e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\core">
+      <UniqueIdentifier>{a7424e1c-6145-4053-b6fb-4681ef22c23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\debugger">
+      <UniqueIdentifier>{d60c63d2-be60-418c-9f54-4ee1e1db8048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\disassembler">
+      <UniqueIdentifier>{03fde8dd-8505-4dc2-b48f-de5071c921a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\log">
+      <UniqueIdentifier>{e446cac8-9f2a-4f60-9de9-f2dff116da68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\runloop">
+      <UniqueIdentifier>{480bf1a8-ef4f-4710-99fc-6a17c62d9bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\ti">
+      <UniqueIdentifier>{73cbe148-a9de-44b7-bcde-023d112f8002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\z80e\ti\hardware">
+      <UniqueIdentifier>{b8640bf1-e70f-4358-a5bf-e32bbdf1c214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\cpu.c">
+      <Filter>Fichiers sources\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\registers.c">
+      <Filter>Fichiers sources\core</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\debugger.c">
+      <Filter>Fichiers sources\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\hooks.c">
+      <Filter>Fichiers sources\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\commands.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\disassemble.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\dump_lcd.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\hexdump.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\on.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\ports.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\press_key.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\print_expression.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\print_mappings.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\print_registers.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\release_key.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\run.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\stack.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\stop.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\tap_key.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\turn_on.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger\commands\unhalt.c">
+      <Filter>Fichiers sources\debugger\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log.c">
+      <Filter>Fichiers sources\log</Filter>
+    </ClCompile>
+    <ClCompile Include="runloop\runloop.c">
+      <Filter>Fichiers sources\runloop</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\memory.c">
+      <Filter>Fichiers sources\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\asic.c">
+      <Filter>Fichiers sources\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\interrupts.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\keyboard.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\memorymapping.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\speed.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\status.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\t6a04.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="ti\hardware\flash.c">
+      <Filter>Fichiers sources\ti\hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tui.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="disassembler\disassembler.c">
+      <Filter>Fichiers sources\disassembler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="z80e\core\cpu.h">
+      <Filter>Fichiers d%27en-tête\z80e\core</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\core\registers.h">
+      <Filter>Fichiers d%27en-tête\z80e\core</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\debugger\debugger.h">
+      <Filter>Fichiers d%27en-tête\z80e\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\debugger\hooks.h">
+      <Filter>Fichiers d%27en-tête\z80e\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\debugger\keys.h">
+      <Filter>Fichiers d%27en-tête\z80e\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\debugger\commands.h">
+      <Filter>Fichiers d%27en-tête\z80e\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\disassembler\disassemble.h">
+      <Filter>Fichiers d%27en-tête\z80e\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\log\log.h">
+      <Filter>Fichiers d%27en-tête\z80e\log</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\runloop\runloop.h">
+      <Filter>Fichiers d%27en-tête\z80e\runloop</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\memory.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\ti.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\asic.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\speed.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\status.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\t6a04.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\flash.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\interrupts.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\keyboard.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="z80e\ti\hardware\memorymapping.h">
+      <Filter>Fichiers d%27en-tête\z80e\ti\hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="tui.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
